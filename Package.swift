@@ -1,5 +1,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "TaskQueue"
+    name: "TaskQueue",
+    targets: [],
+    dependencies: [
+
+    ],
+    exclude: []
 )
+
