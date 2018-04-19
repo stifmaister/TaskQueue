@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "3d41640116088b75b5e9bef97a14e322"
+build_time: [1524164275, 174576000]
+inputs:
+  "/Users/sergiocecarini/TaskQueue/Sources/TaskQueue.swift": [1524157535, 0]

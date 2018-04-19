@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		335AD5EF205959A9000D4D08 /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335AD5EB205959A9000D4D08 /* TaskQueue.swift */; };
-		335AD5FD20595AF8000D4D08 /* TaskQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335AD5E8205959A9000D4D08 /* TaskQueueTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,18 +15,10 @@
 		335AD5E9205959A9000D4D08 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335AD5EB205959A9000D4D08 /* TaskQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskQueue.swift; sourceTree = "<group>"; };
 		335AD5EC205959A9000D4D08 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		335AD5F520595A53000D4D08 /* TaskQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B27949B1C3B45390030A02A /* TaskQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TaskQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		335AD5F220595A53000D4D08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5B2794971C3B45390030A02A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				5B27949B1C3B45390030A02A /* TaskQueue.framework */,
-				335AD5F520595A53000D4D08 /* TaskQueueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,23 +77,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		335AD5F420595A53000D4D08 /* TaskQueueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 335AD5FA20595A53000D4D08 /* Build configuration list for PBXNativeTarget "TaskQueueTests" */;
-			buildPhases = (
-				335AD5F120595A53000D4D08 /* Sources */,
-				335AD5F220595A53000D4D08 /* Frameworks */,
-				335AD5F320595A53000D4D08 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TaskQueueTests;
-			productName = TaskQueueTests;
-			productReference = 335AD5F520595A53000D4D08 /* TaskQueueTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		5B27949A1C3B45390030A02A /* TaskQueue */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B2794AF1C3B45390030A02A /* Build configuration list for PBXNativeTarget "TaskQueue" */;
@@ -132,10 +105,6 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Pilgrimage Software";
 				TargetAttributes = {
-					335AD5F420595A53000D4D08 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
 					5B27949A1C3B45390030A02A = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 4ER83K7G3W;
@@ -157,19 +126,11 @@
 			projectRoot = "";
 			targets = (
 				5B27949A1C3B45390030A02A /* TaskQueue */,
-				335AD5F420595A53000D4D08 /* TaskQueueTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		335AD5F320595A53000D4D08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5B2794991C3B45390030A02A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,14 +141,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		335AD5F120595A53000D4D08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				335AD5FD20595AF8000D4D08 /* TaskQueueTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5B2794961C3B45390030A02A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,53 +152,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		335AD5FB20595A53000D4D08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pilgrimagesoftware.lib.TaskQueueTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = "";
-				SUPPORTED_PLATFORMS = "macosx appletvsimulator appletvos iphonesimulator iphoneos";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,4";
-			};
-			name = Debug;
-		};
-		335AD5FC20595A53000D4D08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pilgrimagesoftware.lib.TaskQueueTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = "";
-				SUPPORTED_PLATFORMS = "macosx appletvsimulator appletvos iphonesimulator iphoneos";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2,3,4";
-			};
-			name = Release;
-		};
 		5B2794AD1C3B45390030A02A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,15 +317,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		335AD5FA20595A53000D4D08 /* Build configuration list for PBXNativeTarget "TaskQueueTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				335AD5FB20595A53000D4D08 /* Debug */,
-				335AD5FC20595A53000D4D08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5B2794951C3B45390030A02A /* Build configuration list for PBXProject "TaskQueue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

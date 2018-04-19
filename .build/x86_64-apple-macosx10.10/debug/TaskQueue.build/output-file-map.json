@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/sergiocecarini/TaskQueue/.build/x86_64-apple-macosx10.10/debug/TaskQueue.build/master.swiftdeps"
+  },
+  "/Users/sergiocecarini/TaskQueue/Sources/TaskQueue.swift": {
+    "dependencies": "/Users/sergiocecarini/TaskQueue/.build/x86_64-apple-macosx10.10/debug/TaskQueue.build/TaskQueue.d",
+    "object": "/Users/sergiocecarini/TaskQueue/.build/x86_64-apple-macosx10.10/debug/TaskQueue.build/TaskQueue.swift.o",
+    "swiftmodule": "/Users/sergiocecarini/TaskQueue/.build/x86_64-apple-macosx10.10/debug/TaskQueue.build/TaskQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/sergiocecarini/TaskQueue/.build/x86_64-apple-macosx10.10/debug/TaskQueue.build/TaskQueue.swiftdeps"
+  }
+}
