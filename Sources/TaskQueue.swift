@@ -16,7 +16,7 @@ import Foundation
 
 // MARK: TaskQueue class
 
-open class TaskQueue: CustomStringConvertible {
+public class TaskQueue: CustomStringConvertible {
 
     //
     // types used by the TaskQueue
